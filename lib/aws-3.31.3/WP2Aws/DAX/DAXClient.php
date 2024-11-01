@@ -1,0 +1,51 @@
+<?php
+namespace WP2Aws\DAX;
+
+use WP2Aws\WP2AwsClient;
+
+/**
+ * This client is used to interact with the **Amazon DynamoDB Accelerator (DAX)** service.
+ * @method \WP2Aws\Result createCluster(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise createClusterAsync(array $args = [])
+ * @method \WP2Aws\Result createParameterGroup(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise createParameterGroupAsync(array $args = [])
+ * @method \WP2Aws\Result createSubnetGroup(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise createSubnetGroupAsync(array $args = [])
+ * @method \WP2Aws\Result decreaseReplicationFactor(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise decreaseReplicationFactorAsync(array $args = [])
+ * @method \WP2Aws\Result deleteCluster(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteClusterAsync(array $args = [])
+ * @method \WP2Aws\Result deleteParameterGroup(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteParameterGroupAsync(array $args = [])
+ * @method \WP2Aws\Result deleteSubnetGroup(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteSubnetGroupAsync(array $args = [])
+ * @method \WP2Aws\Result describeClusters(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeClustersAsync(array $args = [])
+ * @method \WP2Aws\Result describeDefaultParameters(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeDefaultParametersAsync(array $args = [])
+ * @method \WP2Aws\Result describeEvents(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeEventsAsync(array $args = [])
+ * @method \WP2Aws\Result describeParameterGroups(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeParameterGroupsAsync(array $args = [])
+ * @method \WP2Aws\Result describeParameters(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeParametersAsync(array $args = [])
+ * @method \WP2Aws\Result describeSubnetGroups(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeSubnetGroupsAsync(array $args = [])
+ * @method \WP2Aws\Result increaseReplicationFactor(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise increaseReplicationFactorAsync(array $args = [])
+ * @method \WP2Aws\Result listTags(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise listTagsAsync(array $args = [])
+ * @method \WP2Aws\Result rebootNode(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise rebootNodeAsync(array $args = [])
+ * @method \WP2Aws\Result tagResource(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise tagResourceAsync(array $args = [])
+ * @method \WP2Aws\Result untagResource(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise untagResourceAsync(array $args = [])
+ * @method \WP2Aws\Result updateCluster(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise updateClusterAsync(array $args = [])
+ * @method \WP2Aws\Result updateParameterGroup(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise updateParameterGroupAsync(array $args = [])
+ * @method \WP2Aws\Result updateSubnetGroup(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise updateSubnetGroupAsync(array $args = [])
+ */
+class DAXClient extends WP2AwsClient {}

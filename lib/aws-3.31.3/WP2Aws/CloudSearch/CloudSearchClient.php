@@ -1,0 +1,58 @@
+<?php
+namespace WP2Aws\CloudSearch;
+
+use WP2Aws\WP2AwsClient;
+
+/**
+ * This client is used to interact with the **Amazon CloudSearch** service.
+ *
+ * @method \WP2Aws\Result buildSuggesters(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise buildSuggestersAsync(array $args = [])
+ * @method \WP2Aws\Result createDomain(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise createDomainAsync(array $args = [])
+ * @method \WP2Aws\Result defineAnalysisScheme(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise defineAnalysisSchemeAsync(array $args = [])
+ * @method \WP2Aws\Result defineExpression(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise defineExpressionAsync(array $args = [])
+ * @method \WP2Aws\Result defineIndexField(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise defineIndexFieldAsync(array $args = [])
+ * @method \WP2Aws\Result defineSuggester(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise defineSuggesterAsync(array $args = [])
+ * @method \WP2Aws\Result deleteAnalysisScheme(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteAnalysisSchemeAsync(array $args = [])
+ * @method \WP2Aws\Result deleteDomain(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteDomainAsync(array $args = [])
+ * @method \WP2Aws\Result deleteExpression(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteExpressionAsync(array $args = [])
+ * @method \WP2Aws\Result deleteIndexField(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteIndexFieldAsync(array $args = [])
+ * @method \WP2Aws\Result deleteSuggester(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise deleteSuggesterAsync(array $args = [])
+ * @method \WP2Aws\Result describeAnalysisSchemes(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeAnalysisSchemesAsync(array $args = [])
+ * @method \WP2Aws\Result describeAvailabilityOptions(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeAvailabilityOptionsAsync(array $args = [])
+ * @method \WP2Aws\Result describeDomains(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeDomainsAsync(array $args = [])
+ * @method \WP2Aws\Result describeExpressions(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeExpressionsAsync(array $args = [])
+ * @method \WP2Aws\Result describeIndexFields(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeIndexFieldsAsync(array $args = [])
+ * @method \WP2Aws\Result describeScalingParameters(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeScalingParametersAsync(array $args = [])
+ * @method \WP2Aws\Result describeServiceAccessPolicies(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeServiceAccessPoliciesAsync(array $args = [])
+ * @method \WP2Aws\Result describeSuggesters(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise describeSuggestersAsync(array $args = [])
+ * @method \WP2Aws\Result indexDocuments(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise indexDocumentsAsync(array $args = [])
+ * @method \WP2Aws\Result listDomainNames(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise listDomainNamesAsync(array $args = [])
+ * @method \WP2Aws\Result updateAvailabilityOptions(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise updateAvailabilityOptionsAsync(array $args = [])
+ * @method \WP2Aws\Result updateScalingParameters(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise updateScalingParametersAsync(array $args = [])
+ * @method \WP2Aws\Result updateServiceAccessPolicies(array $args = [])
+ * @method \WP2GuzzleHttp\Promise\Promise updateServiceAccessPoliciesAsync(array $args = [])
+ */
+class CloudSearchClient extends WP2AwsClient {}
